@@ -1,0 +1,139 @@
+/* CSS Document */
+
+/* CSS Reset */
+
+
+body, img, video, header, header img, title, h1, h2, blockquote, table, nav {
+	 margin:0;
+      padding:0;
+      border:0;
+}
+
+body {
+	background-color: #D9D9D9;
+}
+
+
+img, video {
+      max-width: 75%;
+      display: block;
+}
+
+
+header {
+      top: 0;
+      background-color: #000;
+      height: 190px; 
+}
+
+#hero_index {
+	background-image: url("../images/muhammad_ali_photo_by_stanley_weston_archive_photos_getty_482857506.jpg");
+	background-size: cover;
+	width: 40%;
+	min-height: 450px;
+}
+
+
+#hero_accomplishments {
+	background-image: url("../images/Ali1.jpg");
+	background-size: cover;
+	width: 100%;
+	min-height: 450px;
+}
+
+
+
+title {
+	text-align: center;
+}
+
+
+td{
+      padding: 10px 0;
+}
+
+label {
+      padding: 0 25;
+      font-size: 2em;
+      font-weight: bold;
+}
+
+input{
+      height: 3em;
+      width: 20em;
+      border-radius: 25px;
+      padding-left: 25px;
+      padding-right: 25px;
+      font-size: 1.3em;
+      font-weight: bold;
+      border: 5px double;
+}
+
+
+.frmButton{
+      margin-left: 15%;
+      width: 10em;
+      background-color: #BB0000;
+}
+
+.frmButton:hover{
+      color: #fff;
+}
+
+
+#container {
+	font-size: 1.12em;
+}
+
+
+
+nav {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+nav li {
+	font-size: 1.5em;
+	text-decoration: none;
+	font-family: 'Francois One' sans-serif;
+	display: inline-block;
+}
+
+
+nav li a {
+      padding: 0.1em 0.75;
+	 display: block;
+	 text-decoration: underline;
+	 padding: 0.5em 1em;
+	 color: black
+}
+
+
+header h1 {
+	text-align: center;
+	margin-left: 10%;
+	font-weight: bold;
+	font-size: 4em;
+	color: #000000;
+}
+
+
+main {
+      clear: both;
+      background-color: #D7A568;
+      padding: 2%;
+      font-size: 1.25em;
+      font-family: 'roboto slab', serif;
+}
+
+
+footer .copyright {
+      font-size: 1em;
+      text-align: center;
+      color: #fff;
+      padding: 2% 4%;
+	 float: center;
+	 width: 75%
+}
